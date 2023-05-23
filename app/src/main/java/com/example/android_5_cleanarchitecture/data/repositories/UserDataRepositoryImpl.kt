@@ -12,7 +12,6 @@ class UserDataRepositoryImpl @Inject constructor(
         userDataPreferencesHelper.name = name
         userDataPreferencesHelper.surname = surname
         userDataPreferencesHelper.age = age
-
     }
 
     override fun getUser() = UserData(

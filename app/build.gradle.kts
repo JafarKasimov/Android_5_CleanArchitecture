@@ -11,11 +11,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.cleanarchitecture"
+    namespace = "com.example.android_5_cleanarchitecture"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.cleanarchitecture"
+        applicationId = "com.example.android_5_cleanarchitecture"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

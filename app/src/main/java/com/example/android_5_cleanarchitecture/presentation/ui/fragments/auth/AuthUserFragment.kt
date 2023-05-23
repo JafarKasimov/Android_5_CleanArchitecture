@@ -6,8 +6,8 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import by.kirich1409.viewbindingdelegate.viewBinding
-import com.example.cleanarchitecture.R
-import com.example.cleanarchitecture.databinding.FragmentAuthUserBinding
+import com.example.android_5_cleanarchitecture.R
+import com.example.android_5_cleanarchitecture.databinding.FragmentAuthUserBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

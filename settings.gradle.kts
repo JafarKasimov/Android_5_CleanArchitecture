@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "CleanArchitecture"
-include (":app")
+rootProject.name = "Android_5_CleanArchitecture"
+include(":app")

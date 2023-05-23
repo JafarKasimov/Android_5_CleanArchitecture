@@ -7,7 +7,7 @@ import javax.inject.Singleton
 
 
 @Singleton
-class UserDataPreferencesHelper@Inject constructor(
+class UserDataPreferencesHelper @Inject constructor(
     @ApplicationContext context: Context
 ) {
     private val sharedPreferences = context.getSharedPreferences("user_data", Context.MODE_PRIVATE)

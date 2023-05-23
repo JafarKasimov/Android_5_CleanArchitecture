@@ -6,9 +6,9 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
 import by.kirich1409.viewbindingdelegate.viewBinding
-import com.example.cleanarchitecture.R
-import com.example.cleanarchitecture.databinding.FragmentUserInformationBinding
-import com.example.cleanarchitecture.presentation.ui.fragments.information.UserInformationFragmentArgs
+import com.example.android_5_cleanarchitecture.R
+import com.example.android_5_cleanarchitecture.databinding.FragmentUserInformationBinding
+
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
