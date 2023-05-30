@@ -14,3 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Android_5_CleanArchitecture"
 include(":app")
+include(":data")
+include(":domain")
+include(":presentattion")

@@ -51,6 +51,7 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment:2.5.3")
     implementation("androidx.navigation:navigation-fragment-ktx:2.5.3")
     implementation("androidx.navigation:navigation-ui-ktx:2.5.3")
+    implementation(project(mapOf("path" to ":domain")))
     val activity_version = "1.7.1"
     // Kotlin
     implementation("androidx.activity:activity-ktx:$activity_version")
@@ -102,5 +103,5 @@ dependencies {
     kapt("com.google.dagger:hilt-compiler:$hilt_version")
 
     //view pager
-    implementation ("androidx.viewpager2:viewpager2:1.1.0-beta01")
+    implementation ("androidx.viewpager2:viewpager2:1.1.0-beta02")
 }
